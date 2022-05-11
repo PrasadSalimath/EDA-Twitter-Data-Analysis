@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87cf0d85f10242b193980eed425a883e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_87cf0d85f10242b193980eed425a883e" ></div>
+        
+</body>
+<script>    
+    
+            var map_87cf0d85f10242b193980eed425a883e = L.map(
+                "map_87cf0d85f10242b193980eed425a883e",
+                {
+                    center: [69.1, 81.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4acc6b2b3ed420e8a485943a04c04a3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+            map_87cf0d85f10242b193980eed425a883e.fitBounds(
+                [[-24.5, 34.8], [69.1, 81.9]],
+                {}
+            );
+        
+    
+            var circle_marker_8d65b25845c3459ba4c60b39845fc383 = L.circleMarker(
+                [41.545639, 1.893817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_28e3ef3c99a940098579e444639b9a34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6601d2ebc9374baba423a3736f146e3f = $(`<div id="html_6601d2ebc9374baba423a3736f146e3f" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "ding ding ding ding DONG!"</div>`)[0];
+            popup_28e3ef3c99a940098579e444639b9a34.setContent(html_6601d2ebc9374baba423a3736f146e3f);
+        
+
+        circle_marker_8d65b25845c3459ba4c60b39845fc383.bindPopup(popup_28e3ef3c99a940098579e444639b9a34)
+        ;
+
+        
+    
+    
+            circle_marker_8d65b25845c3459ba4c60b39845fc383.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "ding ding ding ding DONG!"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_33fedace6cda4b10b81bd2db17e439f3 = L.circleMarker(
+                [41.545639, 1.893817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_35a519c068e3468cb3615ad84c2b57af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61fbfedf6b7e4e9a96b03d9554838462 = $(`<div id="html_61fbfedf6b7e4e9a96b03d9554838462" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "És la una en punt de la nit"</div>`)[0];
+            popup_35a519c068e3468cb3615ad84c2b57af.setContent(html_61fbfedf6b7e4e9a96b03d9554838462);
+        
+
+        circle_marker_33fedace6cda4b10b81bd2db17e439f3.bindPopup(popup_35a519c068e3468cb3615ad84c2b57af)
+        ;
+
+        
+    
+    
+            circle_marker_33fedace6cda4b10b81bd2db17e439f3.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "És la una en punt de la nit"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_45e578b3a16f4310909d607db767252c = L.circleMarker(
+                [41.597622, 0.6432107],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_87728a2fa41741afba30fbb2bb3833d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bcf8fa285134d82aaeaeb8a1f9fcc14 = $(`<div id="html_9bcf8fa285134d82aaeaeb8a1f9fcc14" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "Temp:22,0°C ⇊ Temp.Aparent:21.8°C Hum:51% ⇈ Pres:1013,5 mbar ⇈ Pluja Avui:0,0 mm Vent:0,8 m/s (S) ⇊ #Lleida #LaBordeta #meteo #meteocat"</div>`)[0];
+            popup_87728a2fa41741afba30fbb2bb3833d4.setContent(html_9bcf8fa285134d82aaeaeb8a1f9fcc14);
+        
+
+        circle_marker_45e578b3a16f4310909d607db767252c.bindPopup(popup_87728a2fa41741afba30fbb2bb3833d4)
+        ;
+
+        
+    
+    
+            circle_marker_45e578b3a16f4310909d607db767252c.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "Temp:22,0°C ⇊
+Temp.Aparent:21.8°C
+Hum:51% ⇈
+Pres:1013,5 mbar ⇈
+Pluja Avui:0,0 mm
+Vent:0,8 m/s (S) ⇊
+#Lleida #LaBordeta #meteo #meteocat"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bad11b3e8fcc453d864b153b6a083cea = L.circleMarker(
+                [42.34010645, -7.86632528],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_e2f9f8f05a9b419d8455cb730dc5fc21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a74ff3cd795a4bf8b8d0b7873c56a0ed = $(`<div id="html_a74ff3cd795a4bf8b8d0b7873c56a0ed" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "00:46 Temp. 18.7°C, Hum. 57%, Dewp. 9°C, Bar. 1021.8 hpa, Wind 233° 1.1 km/h"</div>`)[0];
+            popup_e2f9f8f05a9b419d8455cb730dc5fc21.setContent(html_a74ff3cd795a4bf8b8d0b7873c56a0ed);
+        
+
+        circle_marker_bad11b3e8fcc453d864b153b6a083cea.bindPopup(popup_e2f9f8f05a9b419d8455cb730dc5fc21)
+        ;
+
+        
+    
+    
+            circle_marker_bad11b3e8fcc453d864b153b6a083cea.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "00:46 Temp. 18.7°C, Hum. 57%, Dewp. 9°C, Bar. 1021.8 hpa, Wind 233° 1.1 km/h"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9f32f2ddb51646109e2bdc630719e885 = L.circleMarker(
+                [41.9864908, 2.0939983],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_facf6b0231084ff0a50c17c37816a501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8d46aee560d4797984d1899f5b8a5d2 = $(`<div id="html_e8d46aee560d4797984d1899f5b8a5d2" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "00:40 Temp. 16.1°C, Hum. 64%, Dewp. 8.1°C, Bar. 1015.9 hpa, Rain Today 0 mm  #meteowareplus #olost #eltemps #meteocat #meteo"</div>`)[0];
+            popup_facf6b0231084ff0a50c17c37816a501.setContent(html_e8d46aee560d4797984d1899f5b8a5d2);
+        
+
+        circle_marker_9f32f2ddb51646109e2bdc630719e885.bindPopup(popup_facf6b0231084ff0a50c17c37816a501)
+        ;
+
+        
+    
+    
+            circle_marker_9f32f2ddb51646109e2bdc630719e885.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "00:40 Temp. 16.1°C, Hum. 64%, Dewp. 8.1°C, Bar. 1015.9 hpa, Rain Today 0 mm  #meteowareplus #olost #eltemps #meteocat #meteo"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52ac4b20a5814e85a8ab632f52c93bbf = L.circleMarker(
+                [37.768528, -3.9603008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_c1a2108a35e5443ca216da5d4d5cb894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7958712b51743549f525c7632d443c0 = $(`<div id="html_e7958712b51743549f525c7632d443c0" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "00:48 Temp. 24.6°C, Hum. 32%, Dewp. 8.5°C, Bar. 1012 hpa, Rain Today 0 mm, Wind 192° 4.0 km/h"</div>`)[0];
+            popup_c1a2108a35e5443ca216da5d4d5cb894.setContent(html_e7958712b51743549f525c7632d443c0);
+        
+
+        circle_marker_52ac4b20a5814e85a8ab632f52c93bbf.bindPopup(popup_c1a2108a35e5443ca216da5d4d5cb894)
+        ;
+
+        
+    
+    
+            circle_marker_52ac4b20a5814e85a8ab632f52c93bbf.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "00:48 Temp. 24.6°C, Hum. 32%, Dewp. 8.5°C, Bar. 1012 hpa, Rain Today 0 mm, Wind 192° 4.0 km/h"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c3e7b454fa004ace92ebeedff2b6ed3a = L.circleMarker(
+                [40.4, -3.68333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_4efb26d6691f463bb5875fcd5b2d386e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10718999a61242d4ade7e3aad2bc13a2 = $(`<div id="html_10718999a61242d4ade7e3aad2bc13a2" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Madrid, Spain https://t.co/Nu35reW2UW"</div>`)[0];
+            popup_4efb26d6691f463bb5875fcd5b2d386e.setContent(html_10718999a61242d4ade7e3aad2bc13a2);
+        
+
+        circle_marker_c3e7b454fa004ace92ebeedff2b6ed3a.bindPopup(popup_4efb26d6691f463bb5875fcd5b2d386e)
+        ;
+
+        
+    
+    
+            circle_marker_c3e7b454fa004ace92ebeedff2b6ed3a.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Madrid, Spain https://t.co/Nu35reW2UW"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e62359b570af43938b90dd91bccaaaa9 = L.circleMarker(
+                [40.41540935, -3.70725802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_7bb8921251b843adaa89823722d64ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d69bc8b1bc22475f9386f4b9e50f40f0 = $(`<div id="html_d69bc8b1bc22475f9386f4b9e50f40f0" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Plaza Mayor De Madrid https://t.co/mXkQMW4WeN"</div>`)[0];
+            popup_7bb8921251b843adaa89823722d64ed2.setContent(html_d69bc8b1bc22475f9386f4b9e50f40f0);
+        
+
+        circle_marker_e62359b570af43938b90dd91bccaaaa9.bindPopup(popup_7bb8921251b843adaa89823722d64ed2)
+        ;
+
+        
+    
+    
+            circle_marker_e62359b570af43938b90dd91bccaaaa9.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Plaza Mayor De Madrid https://t.co/mXkQMW4WeN"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78d98b0462a445299360646d3c3d9da0 = L.circleMarker(
+                [40.41540935, -3.70725802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_b4a55d0879624a3ca76ab85b5d3b8bab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec6b2e547d294688aea04729039e57da = $(`<div id="html_ec6b2e547d294688aea04729039e57da" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Plaza Mayor De Madrid https://t.co/aX9yikdPjy"</div>`)[0];
+            popup_b4a55d0879624a3ca76ab85b5d3b8bab.setContent(html_ec6b2e547d294688aea04729039e57da);
+        
+
+        circle_marker_78d98b0462a445299360646d3c3d9da0.bindPopup(popup_b4a55d0879624a3ca76ab85b5d3b8bab)
+        ;
+
+        
+    
+    
+            circle_marker_78d98b0462a445299360646d3c3d9da0.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "Just posted a video @ Plaza Mayor De Madrid https://t.co/aX9yikdPjy"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f537b3a01aad4ed699c021dfd4fdd102 = L.circleMarker(
+                [41.545639, 1.893817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_87cf0d85f10242b193980eed425a883e);
+        
+    
+        var popup_deb31c1b46ba4d538c0c0b0458238279 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31b165e1335a4980a8cccc49e396ea8c = $(`<div id="html_31b165e1335a4980a8cccc49e396ea8c" style="width: 100.0%; height: 100.0%;">Country: <b>ES</b> <br><br> Tweet: "DONG!"</div>`)[0];
+            popup_deb31c1b46ba4d538c0c0b0458238279.setContent(html_31b165e1335a4980a8cccc49e396ea8c);
+        
+
+        circle_marker_f537b3a01aad4ed699c021dfd4fdd102.bindPopup(popup_deb31c1b46ba4d538c0c0b0458238279)
+        ;
+
+        
+    
+    
+            circle_marker_f537b3a01aad4ed699c021dfd4fdd102.bindTooltip(
+                `<div>
+                     Country: <b>ES</b> <br><br> Tweet: "DONG!"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

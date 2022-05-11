@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6280f908217f451c9ecb0a4f5241fcea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6280f908217f451c9ecb0a4f5241fcea" ></div>
+        
+</body>
+<script>    
+    
+            var map_6280f908217f451c9ecb0a4f5241fcea = L.map(
+                "map_6280f908217f451c9ecb0a4f5241fcea",
+                {
+                    center: [69.1, 81.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3178f3d515294f9ca9a6be2826d4ad1d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+            map_6280f908217f451c9ecb0a4f5241fcea.fitBounds(
+                [[-24.5, 34.8], [69.1, 81.9]],
+                {}
+            );
+        
+    
+            var circle_marker_e9a73203b0f44940aeda4d636b8973c9 = L.circleMarker(
+                [37.32624246, 40.71657842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_35eb13076a3e485daaddfcdce1c7d885 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_feb9dd62e61a4d90b0d25cf0c74ce616 = $(`<div id="html_feb9dd62e61a4d90b0d25cf0c74ce616" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "#bitmeyen iş :) #iyigeceler (@ Chateau de Mardin in Mardin) https://t.co/5Zonf3GRsM https://t.co/Ji0S0MwGZA"</div>`)[0];
+            popup_35eb13076a3e485daaddfcdce1c7d885.setContent(html_feb9dd62e61a4d90b0d25cf0c74ce616);
+        
+
+        circle_marker_e9a73203b0f44940aeda4d636b8973c9.bindPopup(popup_35eb13076a3e485daaddfcdce1c7d885)
+        ;
+
+        
+    
+    
+            circle_marker_e9a73203b0f44940aeda4d636b8973c9.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "#bitmeyen iş :) #iyigeceler (@ Chateau de Mardin in Mardin) https://t.co/5Zonf3GRsM https://t.co/Ji0S0MwGZA"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_184ee73d6ca14d17aa61a969afeb5bab = L.circleMarker(
+                [40.55068875, 34.95789271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_36433458246c4f4e8eb08c5d4310b320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e574d360988f452aa161864812f9ad35 = $(`<div id="html_e574d360988f452aa161864812f9ad35" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "AK Parti Çorum Milletvekili Av. Oğuzhan Kaya’nın İcra ve İflas Kanunu ile bazı kanunlarda değişiklik yapılmasına da… https://t.co/JH0QKXQHnd"</div>`)[0];
+            popup_36433458246c4f4e8eb08c5d4310b320.setContent(html_e574d360988f452aa161864812f9ad35);
+        
+
+        circle_marker_184ee73d6ca14d17aa61a969afeb5bab.bindPopup(popup_36433458246c4f4e8eb08c5d4310b320)
+        ;
+
+        
+    
+    
+            circle_marker_184ee73d6ca14d17aa61a969afeb5bab.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "AK Parti Çorum Milletvekili Av. Oğuzhan Kaya’nın İcra ve İflas Kanunu ile bazı kanunlarda değişiklik yapılmasına da… https://t.co/JH0QKXQHnd"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_415bbe30b7e442dcaca5a316902bdae5 = L.circleMarker(
+                [41.5044251, 35.95356077],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_7b071c7033474e46aea3f327dfe351d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37d0c82b1fec449f840fc34c1cccd16f = $(`<div id="html_37d0c82b1fec449f840fc34c1cccd16f" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "Az önce bir fotoğraf paylaştı @ Koşu Köyü https://t.co/KlJotoS3Zx"</div>`)[0];
+            popup_7b071c7033474e46aea3f327dfe351d9.setContent(html_37d0c82b1fec449f840fc34c1cccd16f);
+        
+
+        circle_marker_415bbe30b7e442dcaca5a316902bdae5.bindPopup(popup_7b071c7033474e46aea3f327dfe351d9)
+        ;
+
+        
+    
+    
+            circle_marker_415bbe30b7e442dcaca5a316902bdae5.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "Az önce bir fotoğraf paylaştı @ Koşu Köyü https://t.co/KlJotoS3Zx"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8a7b79763c814128aab7de4f35684878 = L.circleMarker(
+                [37.78045854, 29.08445835],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_c443d79c9b2e4aa1a3e10e3288e024da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d868af0f3bc14479b88c6f1242f003a8 = $(`<div id="html_d868af0f3bc14479b88c6f1242f003a8" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "I'm at Denizli in Türkiye https://t.co/ija459g4mp"</div>`)[0];
+            popup_c443d79c9b2e4aa1a3e10e3288e024da.setContent(html_d868af0f3bc14479b88c6f1242f003a8);
+        
+
+        circle_marker_8a7b79763c814128aab7de4f35684878.bindPopup(popup_c443d79c9b2e4aa1a3e10e3288e024da)
+        ;
+
+        
+    
+    
+            circle_marker_8a7b79763c814128aab7de4f35684878.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "I'm at Denizli in Türkiye https://t.co/ija459g4mp"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad3b83f99da94eb4a5efeae7aaa93e3d = L.circleMarker(
+                [40.18333244, 29.0666914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_3fccb16026ca477aaf180a527d4983cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6561c96a3b34d2fa909ae429b0f6660 = $(`<div id="html_f6561c96a3b34d2fa909ae429b0f6660" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "I'm at Bursa in Türkiye https://t.co/9Bro0ZxA42"</div>`)[0];
+            popup_3fccb16026ca477aaf180a527d4983cf.setContent(html_f6561c96a3b34d2fa909ae429b0f6660);
+        
+
+        circle_marker_ad3b83f99da94eb4a5efeae7aaa93e3d.bindPopup(popup_3fccb16026ca477aaf180a527d4983cf)
+        ;
+
+        
+    
+    
+            circle_marker_ad3b83f99da94eb4a5efeae7aaa93e3d.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "I'm at Bursa in Türkiye https://t.co/9Bro0ZxA42"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f47a4d5e3764841bfa7a1131587f53a = L.circleMarker(
+                [40.1456, 26.4064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_5f552f60953745a6a1f6b6dd96277070 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff00e01dddfb4a4883806c5f4d98751e = $(`<div id="html_ff00e01dddfb4a4883806c5f4d98751e" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "Az önce bir fotoğraf paylaştı @ Çanakkale, Turkey https://t.co/vrkkxAD5fc"</div>`)[0];
+            popup_5f552f60953745a6a1f6b6dd96277070.setContent(html_ff00e01dddfb4a4883806c5f4d98751e);
+        
+
+        circle_marker_3f47a4d5e3764841bfa7a1131587f53a.bindPopup(popup_5f552f60953745a6a1f6b6dd96277070)
+        ;
+
+        
+    
+    
+            circle_marker_3f47a4d5e3764841bfa7a1131587f53a.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "Az önce bir fotoğraf paylaştı @ Çanakkale, Turkey https://t.co/vrkkxAD5fc"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c1acc2d240084aed91c2ffa2fe1366b7 = L.circleMarker(
+                [37.01597509, 27.3354435],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_c1074f8531d64e96a7248ed3cc694abb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcfc5a672be14abaa497bab760b42c85 = $(`<div id="html_fcfc5a672be14abaa497bab760b42c85" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "Bu da oldu... @ Bodrum Ortakent Yahşi Yalısı https://t.co/X7VU8iOwqd"</div>`)[0];
+            popup_c1074f8531d64e96a7248ed3cc694abb.setContent(html_fcfc5a672be14abaa497bab760b42c85);
+        
+
+        circle_marker_c1acc2d240084aed91c2ffa2fe1366b7.bindPopup(popup_c1074f8531d64e96a7248ed3cc694abb)
+        ;
+
+        
+    
+    
+            circle_marker_c1acc2d240084aed91c2ffa2fe1366b7.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "Bu da oldu... @ Bodrum Ortakent Yahşi Yalısı https://t.co/X7VU8iOwqd"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_affb69bd1b2345e9be1559d01168d3b6 = L.circleMarker(
+                [41.01088684, 29.11645769],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_e1d93bd6defc446f9864b483689ffbb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98f68d06ab7e43ee927b59d010d13445 = $(`<div id="html_98f68d06ab7e43ee927b59d010d13445" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "I'm at Soyak Yenişehir in Ümraniye, Türkiye https://t.co/f7Ersjvy9O"</div>`)[0];
+            popup_e1d93bd6defc446f9864b483689ffbb9.setContent(html_98f68d06ab7e43ee927b59d010d13445);
+        
+
+        circle_marker_affb69bd1b2345e9be1559d01168d3b6.bindPopup(popup_e1d93bd6defc446f9864b483689ffbb9)
+        ;
+
+        
+    
+    
+            circle_marker_affb69bd1b2345e9be1559d01168d3b6.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "I'm at Soyak Yenişehir in Ümraniye, Türkiye https://t.co/f7Ersjvy9O"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a07d371da3ae4ce79842f503c5da6c62 = L.circleMarker(
+                [37.0383, 27.4292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_607dd7fbe0354e2d8efeec6721c94763 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37fcba2031a740c1b3f411a6f927dc7b = $(`<div id="html_37fcba2031a740c1b3f411a6f927dc7b" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "GECE...❤ @ Bodrum, Mugla https://t.co/jmX2uMEB8P"</div>`)[0];
+            popup_607dd7fbe0354e2d8efeec6721c94763.setContent(html_37fcba2031a740c1b3f411a6f927dc7b);
+        
+
+        circle_marker_a07d371da3ae4ce79842f503c5da6c62.bindPopup(popup_607dd7fbe0354e2d8efeec6721c94763)
+        ;
+
+        
+    
+    
+            circle_marker_a07d371da3ae4ce79842f503c5da6c62.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "GECE...❤ @ Bodrum, Mugla https://t.co/jmX2uMEB8P"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e2c4a33bee84e7097c9fa9c4872982a = L.circleMarker(
+                [40.1456, 26.4064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_6280f908217f451c9ecb0a4f5241fcea);
+        
+    
+        var popup_2a4dab1179f8444dabc0900282ecd96d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2c428f1eb294187b9421fc0b7900627 = $(`<div id="html_e2c428f1eb294187b9421fc0b7900627" style="width: 100.0%; height: 100.0%;">Country: <b>TR</b> <br><br> Tweet: "Merhaba🤗 Saç Açma Ve Boyama Sizlerle. Videom Kanalımda. Link Profilimde 👆🏻👆🏻 . . #eminedeligoz #saç #saçboyama… https://t.co/iercr3PorV"</div>`)[0];
+            popup_2a4dab1179f8444dabc0900282ecd96d.setContent(html_e2c428f1eb294187b9421fc0b7900627);
+        
+
+        circle_marker_1e2c4a33bee84e7097c9fa9c4872982a.bindPopup(popup_2a4dab1179f8444dabc0900282ecd96d)
+        ;
+
+        
+    
+    
+            circle_marker_1e2c4a33bee84e7097c9fa9c4872982a.bindTooltip(
+                `<div>
+                     Country: <b>TR</b> <br><br> Tweet: "Merhaba🤗 Saç Açma Ve Boyama Sizlerle. Videom Kanalımda. Link Profilimde 👆🏻👆🏻
+.
+.
+#eminedeligoz #saç #saçboyama… https://t.co/iercr3PorV"
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
